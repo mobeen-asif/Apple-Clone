@@ -1,0 +1,107 @@
+@import url('https://v1.fontapi.ir/css/SFProDisplay:100;200;400;500;600;700;800;900');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: SF Pro Display, sans-serif;
+}
+/* ################### Navbar Styling ######################## */
+header {
+    width: 100%;
+    height: 44px;
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+header ul {
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    font-size: 120x;
+    letter-spacing: -0.374px;
+}
+header ul li{
+    cursor: pointer;
+    list-style: none;
+}
+header ul li:hover{
+    color: white;
+}
+header ul li img{
+    width: 18px;
+    height: 18px;
+}
+/* ############### Hero Section Styling ########################## */
+.hero-section{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.hero-section .background {
+    position: absolute;
+    background: url(./images/iPhone-14-Pro.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 3500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.hero-section .top-title{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: normal;
+}
+.hero-section .top-title .top-title-links a{
+    color: #1e6db8;
+    font-size: 21px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.hero-section .top-title .top-title-links a:nth-child(2){
+    margin-left: 30px;
+}
+.hero-section .top-title .top-title-links a:hover{
+    border-bottom: 1px solid #1e6db8;
+}
+.hero-section .top-title .top-title-links{
+    margin-top: 12px;
+}
+.hero-section .top-title .top-title-links  img{
+    width: 12px;
+}
+.hero-section .top-title .top-title-links{
+    display: flex;
+    justify-content: center;
+
+}
+.hero-section .top-title .top-title-links div:nth-child(2){
+    margin-left: 30px;
+}
+.top-title h1{
+    font-size: 52px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.top-title h3{
+    margin-top: 3px;
+    font-size: 26px;
+    font-weight: 400;
+}
