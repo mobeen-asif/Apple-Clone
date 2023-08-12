@@ -228,6 +228,39 @@ header ul li img{
     background-position: center;
     background-repeat: no-repeat;
 }
+/* ######################## Image slider styling ########################### */
+.btn-light{
+    background: #ebeded;
+    color: #252626;
+    top: 461px;
+    left: 300px;
+    animation: btn-animation 2s 1s;
+
+}
+@keyframes btn-animation{
+ from{
+    transform: translateY(100px);
+ }
+ to{
+    transform: translateY(0);
+ }
+}
+.txtoncover{
+    top: 465px;
+    left: 450px;
+    gap: 20px;
+    animation: txt-animation 2s 1s;
+}
+@keyframes txt-animation{
+    from{
+       transform: translateY(100px);
+    }
+    to{
+       transform: translateY(0);
+    }
+   }
+
+
 /* ##################### footer ################################### */
 .footer{
     width: 100%;
