@@ -1,5 +1,6 @@
 @import url('https://v1.fontapi.ir/css/SFProDisplay:100;200;400;500;600;700;800;900');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,12 +12,14 @@
 header {
     width: 100%;
     height: 44px;
-    background: rgba(0,0,0,0.8);
+    background: rgba(16, 16, 16, 0.8);
+    backdrop-filter: blur(20px);
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
 }
+
 header ul {
     height: 100%;
     width: 100%;
@@ -26,20 +29,25 @@ header ul {
     align-items: center;
     justify-content: space-between;
     color: gray;
-    font-size: 120x;
+    font-size: 12px;
+    font-weight: 600;
     letter-spacing: -0.374px;
 }
-header ul li{
+
+header ul li {
     cursor: pointer;
     list-style: none;
 }
-header ul li:hover{
+
+header ul li:hover {
     color: white;
 }
-header ul li img{
+
+header ul li img {
     width: 18px;
     height: 18px;
 }
+
 /* ##################### utility classes ############################ */
 .background {
     position: absolute;
@@ -50,106 +58,127 @@ header ul li img{
     background-size: cover;
     z-index: -1;
 }
+
 /* ############### Hero Section Styling ########################## */
-.hero-section{
+.hero-section {
     height: 100vh;
     width: 100%;
     position: relative;
     overflow: hidden;
 }
+
 .background-iphonepro {
     background: url(./images/iPhone-14-Pro.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
-.hero-section .top-title{
+
+.hero-section .top-title {
     margin-top: 100px;
     color: white;
     text-align: center;
 }
-.hero-section .top-title .top-title-links a{
+
+.hero-section .top-title .top-title-links a {
     color: #1e6db8;
     font-size: 25px;
     font-weight: 400;
     text-decoration: none;
 }
-.hero-section .top-title .top-title-links a:nth-child(2){
+
+.hero-section .top-title .top-title-links a:nth-child(2) {
     margin-left: 30px;
 }
-.hero-section .top-title .top-title-links a:hover{
+
+.hero-section .top-title .top-title-links a:hover {
     border-bottom: 1px solid #1e6db8;
 }
-.hero-section .top-title .top-title-links{
+
+.hero-section .top-title .top-title-links {
     margin-top: 12px;
 }
-.hero-section .top-title .top-title-links  img{
+
+.hero-section .top-title .top-title-links img {
     width: 12px;
 }
-.hero-section .top-title .top-title-links{
+
+.hero-section .top-title .top-title-links {
     display: flex;
     justify-content: center;
 
 }
-.hero-section .top-title .top-title-links div:nth-child(2){
+
+.hero-section .top-title .top-title-links div:nth-child(2) {
     margin-left: 30px;
 }
-.top-title h1{
+
+.top-title h1 {
     font-size: 64px;
     font-weight: 500;
     letter-spacing: -1px;
 }
-.top-title h3{
+
+.top-title h3 {
     margin-top: 3px;
     font-size: 30px;
     font-weight: 400;
 }
+
 /* ######################## second section ##################################### */
 .background-iphone {
     background: url(./images/iPhone-14.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
-.second-section .top-title h1{
+
+.second-section .top-title h1 {
     font-size: 64px;
     font-weight: 600;
     letter-spacing: -1px;
     color: #1d1d1f;
 }
-.second-section .top-title h3{
+
+.second-section .top-title h3 {
     margin-top: 3px;
     font-size: 30px;
     font-weight: 400;
     color: #1d1d1f;
 }
-.second-section{
+
+.second-section {
     margin-top: 16px;
 }
+
 /* ###################### third section ######################## */
-.background-macbook{
+.background-macbook {
     background: url(./images/Macbook-Air.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /* ########################### fourth section ############################ */
-.fourth-section{
+.fourth-section {
     width: 100%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
-.fourth-section .row{
+
+.fourth-section .row {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 10px;
 }
+
 .background-ipad {
     background: url(./images/iPad-Pro.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
-.fourth-section .fourth-section-items{
+
+.fourth-section .fourth-section-items {
     height: 590px;
     flex: 0.497;
     position: relative;
@@ -158,171 +187,206 @@ header ul li img{
     width: 100%;
     justify-content: center;
 }
-#fourth-section1-heading1{
+
+#fourth-section1-heading1 {
     font-size: 50px;
     color: #f5f5f7;
 }
-#fourth-section1-heading2{
+
+#fourth-section1-heading2 {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 25px;
     color: #f5f5f7;
 }
-#fourth-section-links a{
+
+#fourth-section-links a {
     font-size: 16px;
     font-weight: 400;
 }
-.fourth-section .row .fourth-section-items .top-title{
+
+.fourth-section .row .fourth-section-items .top-title {
     margin-top: 50px;
 }
-.background-watch{
+
+.background-watch {
     background: url(./images/Watch.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
-#fourth-section-watch-heading2{
+
+#fourth-section-watch-heading2 {
     font-size: 25px;
     color: white;
     font-weight: 2000;
 }
+
 /* #################### fourth section second row ########################## */
-.background-vision{
+.background-vision {
     background: url(./images/Vision.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .background-college-pack {
     background: url(./images/College-Pack.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
-#fourth-section2-heading1{
-    margin-top: 350px;
+
+#fourth-section2-heading1 {
+    margin-top: 330px;
     color: black;
 }
-#fourth-section2-heading2{
+
+#fourth-section2-heading2 {
     color: black;
     font-size: 25px;
+    margin-bottom: 0px;
 }
-#fourth-section2-heading3{
+
+#fourth-section2-heading3 {
     color: #6e6e73;
     margin-top: 10px;
     font-weight: 400;
     font-size: 20px;
 }
+
 #fourth-section-heading1 {
     font-size: 45px;
 }
-#fourth-section-heading2{
+
+#fourth-section-heading2 {
     font-size: 20px;
 }
+
 /* #################### fourth section third row ########################## */
-.background-tradein{
+.background-tradein {
     background: url(./images/Trade-in.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
-.background-tile{
+
+.background-tile {
     background: url(./images/tile.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /* ######################## Image slider styling ########################### */
-.btn-light{
+.btn-light {
     background: #ebeded;
     color: #252626;
     top: 461px;
     left: 300px;
-    animation: btn-animation 2s 1s;
+    animation: btn-animation 2s;
 
 }
-@keyframes btn-animation{
- from{
-    transform: translateY(100px);
- }
- to{
-    transform: translateY(0);
- }
+
+@keyframes btn-animation {
+    from {
+        transform: translateY(100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
 }
-.txtoncover{
+
+.txtoncover {
     top: 465px;
     left: 450px;
     gap: 20px;
-    animation: txt-animation 2s 1s;
+    animation: txt-animation 2s;
 }
-@keyframes txt-animation{
-    from{
-       transform: translateY(100px);
+
+@keyframes txt-animation {
+    from {
+        transform: translateY(100px);
     }
-    to{
-       transform: translateY(0);
+
+    to {
+        transform: translateY(0);
     }
-   }
+}
 
 
 /* ##################### footer ################################### */
-.footer{
+.footer {
     width: 100%;
     height: auto;
     background-color: #f5f5f7;
     display: flex;
     justify-content: center;
 }
-.footer .footer-wrapper{
+
+.footer .footer-wrapper {
     width: 983px;
     height: auto;
 }
-.footer .footer-wrapper ul{
+
+.footer .footer-wrapper ul {
     font-size: 12px;
     list-style: none;
     color: #767679;
     border-bottom: 1px solid #d2d2d7;
 }
-.footer .footer-wrapper ul li{
+
+.footer .footer-wrapper ul li {
     margin: 15px 0;
     letter-spacing: 0.1px;
 }
-.footer .footer-wrapper ul li a{
+
+.footer .footer-wrapper ul li a {
     color: #424245;
 }
-.footer .footer-wrapper .footer-items{
+
+.footer .footer-wrapper .footer-items {
     width: 100%;
     display: flex;
-    
+
 }
-.footer .footer-wrapper .footer-items .footer-items-column{
+
+.footer .footer-wrapper .footer-items .footer-items-column {
     width: 200px;
     display: flex;
     flex-direction: column;
 }
-.footer .footer-wrapper .footer-items .footer-items-column .footer-links-column-title{
+
+.footer .footer-wrapper .footer-items .footer-items-column .footer-links-column-title {
     font-weight: 600;
     font-size: 12px;
     margin-top: 18px;
-    margin-bottom: 15px ;
+    margin-bottom: 12px;
     letter-spacing: 0.5px;
     color: #28282a;
 }
-footer .footer-wrapper .footer-items a{
+
+footer .footer-wrapper .footer-items a {
     font-size: 12px;
     color: #515154;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     text-decoration: none;
 }
-footer .footer-wrapper .footer-items a:hover{
+
+footer .footer-wrapper .footer-items a:hover {
     text-decoration: underline;
 }
-.footer .footer-wrapper .footer-line{
+
+.footer .footer-wrapper .footer-line {
     font-size: 13px;
     color: #86868b;
     padding-bottom: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d2d2d7;
+    margin-top: 20px;
 }
-.footer .footer-wrapper .footer-line a{
+
+.footer .footer-wrapper .footer-line a {
     color: #06c;
 }
-.footer .footer-wrapper .footer-copyright{
+
+.footer .footer-wrapper .footer-copyright {
     width: 100%;
     height: 20px;
     display: flex;
@@ -333,26 +397,31 @@ footer .footer-wrapper .footer-items a:hover{
     margin: 20px 0px;
     position: relative;
 }
-.footer .footer-wrapper .footer-copyright .links{
+
+.footer .footer-wrapper .footer-copyright .links {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.footer .footer-wrapper .footer-copyright span a{
+
+.footer .footer-wrapper .footer-copyright span a {
     font-size: 15px;
     text-decoration: none;
     color: black;
 }
-.footer .footer-wrapper .footer-copyright p{
+
+.footer .footer-wrapper .footer-copyright p {
     margin-bottom: auto;
 }
-.footer .footer-wrapper .footer-copyright .links a{
+
+.footer .footer-wrapper .footer-copyright .links a {
     padding: 0 10px;
     color: #515154;
-    border-left: 1px solid gray;
+    border-left: 1px solid #86868b;
     text-decoration: none;
 }
-.footer .footer-wrapper .footer-copyright .links a:first-child{
+
+.footer .footer-wrapper .footer-copyright .links a:first-child {
     border: none;
 }
