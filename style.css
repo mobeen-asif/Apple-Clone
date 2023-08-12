@@ -3,12 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    font-size: 16px;
     font-family: SF Pro Display, sans-serif;
 }
+
+
 /* ################### Navbar Styling ######################## */
 header {
     width: 100%;
@@ -42,6 +40,16 @@ header ul li img{
     width: 18px;
     height: 18px;
 }
+/* ##################### utility classes ############################ */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
 /* ############### Hero Section Styling ########################## */
 .hero-section{
     height: 100vh;
@@ -49,29 +57,19 @@ header ul li img{
     position: relative;
     overflow: hidden;
 }
-.hero-section .background {
-    position: absolute;
+.background-iphonepro {
     background: url(./images/iPhone-14-Pro.jpg);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: 3500px;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1;
 }
 .hero-section .top-title{
     margin-top: 100px;
     color: white;
     text-align: center;
-    font-weight: 400;
-    font-size: 17px;
-    letter-spacing: normal;
 }
 .hero-section .top-title .top-title-links a{
     color: #1e6db8;
-    font-size: 21px;
+    font-size: 25px;
     font-weight: 400;
     text-decoration: none;
 }
@@ -96,12 +94,232 @@ header ul li img{
     margin-left: 30px;
 }
 .top-title h1{
-    font-size: 52px;
+    font-size: 64px;
     font-weight: 500;
     letter-spacing: -1px;
 }
 .top-title h3{
     margin-top: 3px;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 400;
+}
+/* ######################## second section ##################################### */
+.background-iphone {
+    background: url(./images/iPhone-14.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.second-section .top-title h1{
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #1d1d1f;
+}
+.second-section .top-title h3{
+    margin-top: 3px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #1d1d1f;
+}
+.second-section{
+    margin-top: 16px;
+}
+/* ###################### third section ######################## */
+.background-macbook{
+    background: url(./images/Macbook-Air.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* ########################### fourth section ############################ */
+.fourth-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.fourth-section .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.background-ipad {
+    background: url(./images/iPad-Pro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fourth-section .fourth-section-items{
+    height: 590px;
+    flex: 0.497;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+}
+#fourth-section1-heading1{
+    font-size: 50px;
+    color: #f5f5f7;
+}
+#fourth-section1-heading2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    color: #f5f5f7;
+}
+#fourth-section-links a{
+    font-size: 16px;
+    font-weight: 400;
+}
+.fourth-section .row .fourth-section-items .top-title{
+    margin-top: 50px;
+}
+.background-watch{
+    background: url(./images/Watch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#fourth-section-watch-heading2{
+    font-size: 25px;
+    color: white;
+    font-weight: 2000;
+}
+/* #################### fourth section second row ########################## */
+.background-vision{
+    background: url(./images/Vision.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background-college-pack {
+    background: url(./images/College-Pack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#fourth-section2-heading1{
+    margin-top: 350px;
+    color: black;
+}
+#fourth-section2-heading2{
+    color: black;
+    font-size: 25px;
+}
+#fourth-section2-heading3{
+    color: #6e6e73;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+#fourth-section-heading1 {
+    font-size: 45px;
+}
+#fourth-section-heading2{
+    font-size: 20px;
+}
+/* #################### fourth section third row ########################## */
+.background-tradein{
+    background: url(./images/Trade-in.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background-tile{
+    background: url(./images/tile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* ##################### footer ################################### */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+}
+.footer .footer-wrapper{
+    width: 983px;
+    height: auto;
+}
+.footer .footer-wrapper ul{
+    font-size: 12px;
+    list-style: none;
+    color: #767679;
+    border-bottom: 1px solid #d2d2d7;
+}
+.footer .footer-wrapper ul li{
+    margin: 15px 0;
+    letter-spacing: 0.1px;
+}
+.footer .footer-wrapper ul li a{
+    color: #424245;
+}
+.footer .footer-wrapper .footer-items{
+    width: 100%;
+    display: flex;
+    
+}
+.footer .footer-wrapper .footer-items .footer-items-column{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.footer .footer-wrapper .footer-items .footer-items-column .footer-links-column-title{
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 18px;
+    margin-bottom: 15px ;
+    letter-spacing: 0.5px;
+    color: #28282a;
+}
+footer .footer-wrapper .footer-items a{
+    font-size: 12px;
+    color: #515154;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+footer .footer-wrapper .footer-items a:hover{
+    text-decoration: underline;
+}
+.footer .footer-wrapper .footer-line{
+    font-size: 13px;
+    color: #86868b;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.footer .footer-wrapper .footer-line a{
+    color: #06c;
+}
+.footer .footer-wrapper .footer-copyright{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #86868b;
+    margin: 20px 0px;
+    position: relative;
+}
+.footer .footer-wrapper .footer-copyright .links{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer .footer-wrapper .footer-copyright span a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.footer .footer-wrapper .footer-copyright p{
+    margin-bottom: auto;
+}
+.footer .footer-wrapper .footer-copyright .links a{
+    padding: 0 10px;
+    color: #515154;
+    border-left: 1px solid gray;
+    text-decoration: none;
+}
+.footer .footer-wrapper .footer-copyright .links a:first-child{
+    border: none;
 }
