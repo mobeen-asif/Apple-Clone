@@ -74,16 +74,17 @@ header ul li img {
 }
 
 .hero-section .top-title {
-    margin-top: 100px;
+    margin-top: 70px;
     color: white;
     text-align: center;
 }
 
 .hero-section .top-title .top-title-links a {
     color: #1e6db8;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     text-decoration: none;
+    text-align: center;
 }
 
 .hero-section .top-title .top-title-links a:nth-child(2) {
