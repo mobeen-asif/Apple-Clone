@@ -92,3 +92,37 @@ li:hover{
   color: #0071E3;
   border: 2px solid #0071E3;
 }
+
+.phone{
+  background-image: url(./img/phone.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  margin-top: 20px;
+}
+
+.phone-content{
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.phone h2{
+  font-size: 3rem;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+.phone h3{
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+.buttons{
+  width: 100%;
+  text-align: center;
+}
