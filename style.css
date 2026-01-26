@@ -1,24 +1,24 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: sans-serif;
 }
 
-.container{
+.container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
 
-.logo{
+.logo {
   height: 25px;
 }
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-around;
   padding: 10px 0;
@@ -28,28 +28,26 @@ body{
   background: #fff;
 }
 
-
-
-.navbar-container{
+.navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 75%;
 }
 
-li{
+li {
   text-decoration: none;
   list-style: none;
   font-size: 0.8rem;
   font-weight: 100;
   opacity: 0.6;
 }
-li:hover{
+li:hover {
   opacity: 1;
   cursor: pointer;
 }
 
-.hero{
+.hero {
   background-image: url(./img/hero.jpg);
   background-position: center;
   background-size: cover;
@@ -58,7 +56,7 @@ li:hover{
   position: relative;
 }
 
-.hero-content{
+.hero-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,33 +65,34 @@ li:hover{
   top: 50px;
 }
 
-.hero-content img{
+.hero-content img {
   height: 50px;
 }
 
-.hero-content h2, .hero-content h3{
+.hero-content h2,
+.hero-content h3 {
   font-size: 1.8rem;
   font-weight: 500;
   margin: 2px auto;
 }
-.buttons button:first-child{
+.buttons button:first-child {
   padding: 10px 20px;
   border-radius: 50px;
   margin: 10px;
-  background-color: #0071E3;
+  background-color: #0071e3;
   color: #fff;
   border: none;
 }
-.buttons button:last-child{
+.buttons button:last-child {
   padding: 10px 20px;
   border-radius: 50px;
   margin: 10px;
   background-color: transparent;
-  color: #0071E3;
-  border: 2px solid #0071E3;
+  color: #0071e3;
+  border: 2px solid #0071e3;
 }
 
-.phone{
+.phone {
   background-image: url(./img/phone.jpg);
   background-position: center;
   background-size: cover;
@@ -102,27 +101,39 @@ li:hover{
   margin-top: 20px;
 }
 
-.phone-content{
+.phone-content {
   position: absolute;
   top: 80px;
   left: 50%;
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
 }
 
-.phone h2{
+.phone h2 {
   font-size: 3rem;
   font-weight: 600;
   width: 100%;
   text-align: center;
 }
-.phone h3{
+.phone h3 {
   font-weight: 400;
   letter-spacing: 1px;
   width: 100%;
   text-align: center;
 }
 
-.buttons{
+.buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.watch {
+  background-image: url(./img/hero-watch.jpg);
+}
+
+.watch-content {
+  color: #fff;
+}
+.watch-hero {
   width: 100%;
   text-align: center;
 }
