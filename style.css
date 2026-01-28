@@ -137,3 +137,17 @@ li:hover {
   width: 100%;
   text-align: center;
 }
+
+.showcase{
+  height: 100vh;
+  background-color: #0071e3;
+  display: flex;
+  align-items: center;
+}
+
+.component{
+  width: 50%;
+  background-color: red;
+  height: 96%;
+  margin: 5px;
+}
